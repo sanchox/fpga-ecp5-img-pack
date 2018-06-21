@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+export PYBUILD_NAME=fpga-image-pack
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_auto_build:
+
+override_dh_auto_install:
+	python3 setup.py install --root=debian/python3-fpga-image-pack/ --install-layout=deb
+
+override_dh_auto_clean:
+	python3 setup.py clean
+	dh_clean
+	rm -rf build
+

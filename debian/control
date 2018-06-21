@@ -1,0 +1,13 @@
+Source: python-fpga-image-pack
+Section: main/devel
+Priority: extra
+Maintainer: Aleksandr Gusarov <a.gusarov@metrotek.ru> 
+Build-Depends: dh-python, python3-all, python3-setuptools, debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://metrotek.ru/
+
+Package: python3-fpga-image-pack
+Section: main/devel
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Python module that provides fpga image packing tools (Python 3)
