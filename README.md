@@ -1,4 +1,6 @@
 # fpga-image-pack
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsanchox%2Ffpga-image-pack.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsanchox%2Ffpga-image-pack?ref=badge_shield)
+
 
 This tool used for packing FPGA binary files (.rbf, .sea, .sed) into one
 file called image (.img) to feed it to fpga-manager supported linux driver.
@@ -73,3 +75,6 @@ extra info: expiremental
 ## License
 
 MIT © Aleksandr Gusarov
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsanchox%2Ffpga-image-pack.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsanchox%2Ffpga-image-pack?ref=badge_large)
